@@ -4,99 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | I am developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Abhishek's to Component Library.</h1>
-<p>I am attending neog.camp and I want to make a library which would make all
-     my projects look good and consistent.
-
-     <!-- <hr> breaker is used for separate webpage into different section.-->
-     <hr>
-
-     <h2>@Typography</h2>
-
-     <h1>This is the biggest heading.</h1>
-     <h2>This is the second biggest heading.</h2>
-     <p>This is the normal text. This is free flowing and will wrap
-        at the end like a paragraph.
-     </p>
-     <small>This is relatively smaller text.</small>
-     
-     <h2>@Container</h2>
-
-     <h3>Fluid Container</h3>
-
-     <!-- <div> is placeholder. -->
-     <div>This is fluid conatainer and it will go till the emd of the page.</div>
-
-     <h3>Center Container</h3>
-     <div>This is center conatainer and it will go till the specified.</div>
-     
-     <h2>@Links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary link</a>
-<hr>
-    <h2>@List</h2>
-    <p>1) Samosa.
-    2) Chatni
-    3) Mirchi
-</p>
-
-    <h3>Unordered LIst</h3>
-<ul>
-    
-    <li>Item one</li>
-    <li>Item Two</li>
-    <li>Item Three</li>
-
-</ul>
-
-<h3>Unordered Inline List</h3>
-<ul>
-    <li>Inline Item One</li>
-    <li>Inline Item Two</li>
-    <li>Inline Item Three</li>
-</ul>
-
-<h3>Reverse Ordered List</h3>
-
-<ol>
-    <li>Milk</li>
-    <li>Toast</li>
-    <li>Bread</li>
-</ol>
-
-<h2>Nav</h2>
-<nav>
-    <div>I am Brand</div>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/">Product</a>
-        </li>
-        <li>
-            <a href="/">About</a>
-        </li>
-    </ul>
-</nav>
-
-<hr>
-<h2>Header</h2>
-<header>
-    <img src="images/Hero.svg"  />
-
-    <h1>Headind Inside Hero</h1>
-
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="">Projects</a>
+            </li>
+            <li class="list-item-inline">Blog</li>
+        </ul>
+    </nav>
+<!-- Little Upper Part of Web -->
+<header class="hero">
+    <!-- <img src="hero-img" alt="images/Hero.svg"> -->
+    <img class="hero-img" src="images/Hero.svg" >
+    <h1 class="hero-heading">
+ I Am Developer
+  <span class="heading-inverted">
+Web Developer
+ </span>
+    </h1>
 </header>
 
-<div style="height: 30vh;">
+<!-- Some Sections -->
+<section class="section">
+    <div class="conatiner container-center">
+        <h1>
+            Projects
+        </h1>
+        <p>
+I would like to showcase you my work and thus, you can see my projects hosted online.
+        </p>
+    </div>
+</section>
+
+<!-- <section class="section ow">
+    <div class="conatiner container-center">
+        <h1>
+            Blogs
+        </h1>
+        <p>
+I am familiar with Html5, CSS, JS, React.js, Git and web hosting.
+        </p>
+    </div>
+</section> -->
+
+<section class="section ow">
+    <div class="conatiner container-center">
+        <h1>
+            Blogs
+        </h1>
+        <p>
+I am familiar with Html5, CSS, JS, React.js, Git and web hosting.
+        </p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-header">
+        Social Media Handle's
+    </div>
+    <ul class="social-links list-non-bullet">
+
+        <li class="list-item-inline">
+        <a class="link" href="https://github.com/abhishekkewate"> Github</a>
+        </li>
+
+        <li class="list-item-inline">
+            <a class="link" href="https://www.linkedin.com/in/abhishek-kewate-94968b215/">Linkdin</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="https://twitter.com/abhishek_kewate">Twiiter</a>
+
+        </li>
+    </ul>
+</footer>
 
 
 
-
-</p>
 </body>
 </html>
